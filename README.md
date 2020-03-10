@@ -1,8 +1,24 @@
-# iot-farm
-IoT-project smart farm
+# my-app
 
-##Build Dockerfile
-`sudo docker build . -t webserver:v1`
+## Project setup
+```
+npm install
+```
 
-##Run Container
-`sudo docker run -dit -p 1234:80 webserver:v1`
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
