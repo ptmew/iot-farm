@@ -858,6 +858,111 @@
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
+"@syncfusion/ej2-base@~18.1.42", "@syncfusion/ej2-base@~18.1.44":
+  version "18.1.44"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-base/-/ej2-base-18.1.44.tgz#4a605d575f95fe0a1ada36c97ebf17cc99d19d12"
+  integrity sha512-Z1Y9fCs1Fa3ZkP31/C1L97mzMm/Al7W5eGZdUuu60A0volrB1ZGdlPzM/oLP6kdFrICr+OSnL84vDHF5pI0hVg==
+  dependencies:
+    "@syncfusion/ej2-icons" "~18.1.42"
+
+"@syncfusion/ej2-buttons@~18.1.43":
+  version "18.1.43"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-buttons/-/ej2-buttons-18.1.43.tgz#6d5b65d8e4ca06c9dd5b14f7cb6a5b409efa1d0c"
+  integrity sha512-QihDJN91mrgROp1OyH7Wa1J3UBAXkoC17KQLmQOxjMhNmoVwgNeNpd0q8lkshrZHLaMd5gXdvJ22rXvGL7CACg==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+
+"@syncfusion/ej2-circulargauge@18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-circulargauge/-/ej2-circulargauge-18.1.42.tgz#a6429b37af5da9debb09cde388385d7c24b6efbe"
+  integrity sha512-NKiqq5SpRVkRGPUWBHovcqM0w0pVBj5kNnE1BRQsAZwxh1lKPlUmFr/L94dATaogBKJBVRId7ugle58oYETpTA==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+    "@syncfusion/ej2-pdf-export" "~18.1.42"
+    "@syncfusion/ej2-svg-base" "~18.1.42"
+
+"@syncfusion/ej2-compression@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-compression/-/ej2-compression-18.1.42.tgz#ad1e42cedc960547f791b25d2a35b2fe106c30d1"
+  integrity sha512-G84twZ7OI+llQnFMot+E3JhiR+b2Q5M91fao5PfUJq75KNH2afZeQMZFC6rorhm285CY35hPamdClfNca3VhAg==
+  dependencies:
+    "@syncfusion/ej2-file-utils" "~18.1.42"
+
+"@syncfusion/ej2-file-utils@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-file-utils/-/ej2-file-utils-18.1.42.tgz#8bb634b8e11a15e2aed2ca913872aef7068f9522"
+  integrity sha512-sjGkzomGBTTwvx1sGGN9edGriREqUGPfKyVLgEUN+Hgy1ilfPeWmxDBV3mg3QSo69cAZtJDHGdrYVXwLiP4Qrw==
+
+"@syncfusion/ej2-icons@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-icons/-/ej2-icons-18.1.42.tgz#99a035702b0ab9c384d2118d41d0fddb2b8d77d1"
+  integrity sha512-uBxHW5pUO8VpCr7qt+d3GFXzkX7uqojO6KHPu8t6QBgnwPFY8k4mQo6/pxBi/2xSeEaAr4nH+co9OErrq8qDeA==
+
+"@syncfusion/ej2-inputs@18.1.44":
+  version "18.1.44"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-inputs/-/ej2-inputs-18.1.44.tgz#f02d613da85798e4bc58207a192abba07a305672"
+  integrity sha512-vvrnIyPpqbRC2ZnY5nosVHLtgTkWGhanNaLiKL72mKc51Yr4LL5XJwm/0Zj5aPXf+S4fr7n9vAklonQk61AOAQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.44"
+    "@syncfusion/ej2-buttons" "~18.1.43"
+    "@syncfusion/ej2-popups" "~18.1.44"
+    "@syncfusion/ej2-splitbuttons" "~18.1.43"
+
+"@syncfusion/ej2-pdf-export@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-pdf-export/-/ej2-pdf-export-18.1.42.tgz#dc6d3d66f35b45a46d94e2dfb30afa1dbe7253f2"
+  integrity sha512-0QCklG/c3Z8HsaxMsJmR/PfqsxrjOrVPw0HReleG3/V3wEeiPyQoEpCGFIUt5vU6+xFm/3APMZzBdhMkSxD+gw==
+  dependencies:
+    "@syncfusion/ej2-compression" "~18.1.42"
+
+"@syncfusion/ej2-popups@~18.1.43", "@syncfusion/ej2-popups@~18.1.44":
+  version "18.1.44"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-popups/-/ej2-popups-18.1.44.tgz#76fdfd8d7e615addbc3f7e575a0ab35eeb9874b9"
+  integrity sha512-Ttv9jmhdtV0yjQb3R+ZMGqi+eo1oB1SPEeDDYN5iAR8rlEpmn6MMVRUs4SZyiymXRbUo7abU3doX7eYrTSjQWw==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.44"
+    "@syncfusion/ej2-buttons" "~18.1.43"
+
+"@syncfusion/ej2-splitbuttons@~18.1.43":
+  version "18.1.43"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-splitbuttons/-/ej2-splitbuttons-18.1.43.tgz#4dae85875028cc3d9dc3bd6f872f668953395395"
+  integrity sha512-eqJM9hr2cddYNvDIFT12ehfhXArA8mHnkNYunHkStHJeGlf2bA78wc0euKaK+F3vWeiY2g7qOuuTEJtmC9ROvQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+    "@syncfusion/ej2-popups" "~18.1.43"
+
+"@syncfusion/ej2-svg-base@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-svg-base/-/ej2-svg-base-18.1.42.tgz#1d851272b7843a6b39d97a59681b52a220ca25f9"
+  integrity sha512-OmCL3gOuird5oBuCcwUGQMVk1pZIcE1bZuSL89daGsxIjZrPnfQcxXg4IUrBkFoXM4xuCy8h6o285deCmTI0ag==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+
+"@syncfusion/ej2-vue-base@~18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-vue-base/-/ej2-vue-base-18.1.42.tgz#cfda0256b0380a6f34872c26c88df2d475332ea1"
+  integrity sha512-u1b1p8rYbcG5U1JoMOdTYaI5PruMR2WgC2BMFKo6jhVWXsunLlBSEkbkwV2qcFlUOH3QFd4W/4KxQBX19akS1w==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+
+"@syncfusion/ej2-vue-circulargauge@^18.1.42":
+  version "18.1.42"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-vue-circulargauge/-/ej2-vue-circulargauge-18.1.42.tgz#4f602215fae8a5dde20308dd0cf0f23b0dfb12fb"
+  integrity sha512-d7KocnFUxyvkmTi2kGYlUdisI564RULEu2eQVGgT+ZR7IZQCsbsJW1H4oCWLNhWw+tui3k6ioYiv9LVb9lKUZg==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.42"
+    "@syncfusion/ej2-circulargauge" "18.1.42"
+    "@syncfusion/ej2-vue-base" "~18.1.42"
+
+"@syncfusion/ej2-vue-inputs@^18.1.42":
+  version "18.1.44"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-vue-inputs/-/ej2-vue-inputs-18.1.44.tgz#8707073fa1262712347f5d2aa8be016ee26af7b4"
+  integrity sha512-ubbTZ5wHzBAsirFvVTKlZT0oPjc1r5LTSDjDczjikx7vZaaJxHurNAVfedCxJJ0lHe4FSiNl/SIWFNSpFa+IXA==
+  dependencies:
+    "@syncfusion/ej2-base" "~18.1.44"
+    "@syncfusion/ej2-inputs" "18.1.44"
+    "@syncfusion/ej2-vue-base" "~18.1.42"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -2035,6 +2140,29 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
+chart.js@^2.3.0, chart.js@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.3.tgz#ae3884114dafd381bc600f5b35a189138aac1ef7"
+  integrity sha512-+2jlOobSk52c1VU6fzkh3UwqHMdSlgH1xFv9FKMqHiNCpXsGPQa/+81AFa+i3jZ253Mq9aAycPwDjnn1XbRNNw==
+  dependencies:
+    chartjs-color "^2.1.0"
+    moment "^2.10.2"
+
+chartjs-color-string@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz#1df096621c0e70720a64f4135ea171d051402f71"
+  integrity sha512-TIB5OKn1hPJvO7JcteW4WY/63v6KwEdt6udfnDE9iCAZgy+V4SrbSxoIbTw/xkUIapjEI4ExGtD0+6D3KyFd7A==
+  dependencies:
+    color-name "^1.0.0"
+
+chartjs-color@^2.1.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/chartjs-color/-/chartjs-color-2.4.1.tgz#6118bba202fe1ea79dd7f7c0f9da93467296c3b0"
+  integrity sha512-haqOg1+Yebys/Ts/9bLo/BqUcONQOdr/hoEr2LLTRl6C5LXctUdHxsCYfvQVg5JIxITrfCNUDr4ntqmQk9+/0w==
+  dependencies:
+    chartjs-color-string "^0.6.0"
+    color-convert "^1.9.3"
+
 check-types@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
@@ -2196,7 +2324,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.9.0, color-convert@^1.9.1:
+color-convert@^1.9.0, color-convert@^1.9.1, color-convert@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   integrity sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==
@@ -3944,6 +4072,14 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
+hchs-vue-charts@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/hchs-vue-charts/-/hchs-vue-charts-1.2.8.tgz#91fd09224ab38cfd3bac1d2427f0ce5cbd57664f"
+  integrity sha1-kf0JIkqzjP07rB0kJ/DOXL1XZk8=
+  dependencies:
+    chart.js "^2.3.0"
+    vue "^2.0.1"
+
 he@1.2.x, he@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
@@ -5198,6 +5334,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
+
+moment@^2.10.2:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -7933,7 +8074,7 @@ vue-loader@^15.8.3:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@^3.1.5:
+vue-router@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
   integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
@@ -7959,12 +8100,12 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.11:
+vue@^2.0.1, vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 
-vuex@^3.1.2:
+vuex@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.3.tgz#f2ad73e3fb73691698b38c93f66e58e267947180"
   integrity sha512-k8vZqNMSNMgKelVZAPYw5MNb2xWSmVgCKtYKAptvm9YtZiOXnRXFWu//Y9zQNORTrm3dNj1n/WaZZI26tIX6Mw==
