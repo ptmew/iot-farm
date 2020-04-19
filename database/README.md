@@ -17,17 +17,18 @@ http://161.246.35.52/cie/pawee/sqltable/test.php?query=select * from PLANT_STATU
 ### Info
 
 **user:** *pawee*
+
 **pass:** *CIEkmitl2020$*
+
 **database:** *cie_lab*
+
 **table:** *PLANT STATUS, PLANT_SETTING, USET_SETTING*
 
 
 
 ### Database Schema
 
-![Bally_DB_Pic](C:\Users\pawee\Desktop\Bally_DB_Pic.JPG)
-
-### 
+![Bally_DB_Pic](D:\UserData\gitclone\iot-farm\database\Bally_DB_Pic.JPG)
 
 ### MySQL Script
 
