@@ -28,7 +28,7 @@ http://161.246.35.52/cie/pawee/sqltable/test.php?query=select * from PLANT_STATU
 
 ### Database Schema
 
-![Bally_DB_Pic](D:\UserData\gitclone\iot-farm\database\Bally_DB_Pic.JPG)
+![Bally_DB_Pic](/Bally_DB_Pic.JPG)
 
 ### MySQL Script
 
