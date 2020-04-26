@@ -2,14 +2,44 @@
 
 ### PHP QUERY
 
+
+
+#### Test Query
+
+##### format
+
 ```http
-http://161.246.35.52/cie/pawee/sqltable/test.php?query=[MYSQL_QUERY]
+http://161.246.35.52/cie/pawee/sqltable/test.php?query=[$MYSQL_QUERY]
 ```
 
 ###### example with MYSQL_QUERY
 
 ```http
 http://161.246.35.52/cie/pawee/sqltable/test.php?query=select * from PLANT_STATUS
+```
+
+
+
+#### Plant status update
+
+##### format
+
+```http
+http://161.246.35.52/cie/pawee/sqltable/plant_status.php?name=[$FARM_NAME]&humid=[$HUMIDITY]&temp=[$TEMPERATURE]&ph=[&PH_VALUE]&ec=[$EC_VALUE]&o2=[$O2_VALUE]
+```
+
+###### example
+
+```http
+http://161.246.35.52/cie/pawee/sqltable/plant_status.php?name="test"&humid=29.23&temp=20.35&ph=10.34&ec=12.00&o2=9.5
+```
+
+the field with unknow value can leave it blank
+
+###### example
+
+```
+http://161.246.35.52/cie/pawee/sqltable/plant_status.php?name="test"&humid=29.23&ph=10.34&o2=9.5
 ```
 
 
