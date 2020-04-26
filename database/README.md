@@ -34,7 +34,7 @@ http://161.246.35.52/cie/pawee/sqltable/plant_status.php?name=[$FARM_NAME]&humid
 http://161.246.35.52/cie/pawee/sqltable/plant_status.php?name="test"&humid=29.23&temp=20.35&ph=10.34&ec=12.00&o2=9.5
 ```
 
-the field with unknow value can leave it blank
+The field with unknow value can left it blank
 
 ###### example
 
