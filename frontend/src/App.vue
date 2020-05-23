@@ -2,81 +2,69 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col">
-        <h1 class="text-center">COVID-19 DATA</h1>
+        <h1 class="text-center">BALLY SMART FARM</h1>
       </div>
     </div>
     <div class="row mt-5" v-if="arrPositive.length > 0">
       <div class="col">
-        <h2 class="text-center">Positive</h2>
+        <h2 class="text-center">HUMIDITY</h2>
         <line-chart
           :chartData="arrPositive"
           :options="chartOptions"
           :chartColors="positiveChartColors"
-          label="Positive"
+          label="HUMID"
         />
       </div>
     </div>
 
     <div class="row mt-5" v-if="arrHospitalized.length > 0">
       <div class="col">
-        <h2 class="text-center">Hospitalized</h2>
+        <h2 class="text-center">TEMPERATURE</h2>
         <line-chart
           :chartData="arrHospitalized"
           :options="chartOptions"
           :chartColors="hospitalizedChartColors"
-          label="Hospitalized"
+          label="TEMP"
         />
       </div>
     </div>
 
     <div class="row mt-5" v-if="arrInIcu.length > 0">
       <div class="col">
-        <h2 class="text-center">In ICU</h2>
+        <h2 class="text-center">POTENTIAL HYDROGEN</h2>
         <line-chart
           :chartData="arrInIcu"
           :options="chartOptions"
           :chartColors="inIcuColors"
-          label="In ICU"
+          label="PH"
         />
       </div>
     </div>
 
     <div class="row mt-5" v-if="arrOnVentilators.length > 0">
       <div class="col">
-        <h2 class="text-center">On Ventilators</h2>
+        <h2 class="text-center">ELECTRICAL CONDUCTIVITY</h2>
         <line-chart
           :chartData="arrOnVentilators"
           :options="chartOptions"
           :chartColors="onVentilatorsColors"
-          label="On Ventilators"
+          label="EC"
         />
       </div>
     </div>
 
     <div class="row mt-5" v-if="arrRecovered.length > 0">
       <div class="col">
-        <h2 class="text-center">Recovered</h2>
+        <h2 class="text-center">OXYGEN</h2>
         <line-chart
           :chartData="arrRecovered"
           :options="chartOptions"
           :chartColors="recoveredColors"
-          label="Recovered"
+          label="O2"
         />
       </div>
     </div>
 
-    <div class="row mt-5 mb-5">
-      <div class="col">
-        <h2 class="text-center">Deaths</h2>
-        <line-chart
-          v-if="arrDeaths.length > 0"
-          :chartData="arrDeaths"
-          :options="chartOptions"
-          :chartColors="deathColors"
-          label="Deaths"
-        />
-      </div>
-    </div>
   </div>
 </template>
 
@@ -141,25 +129,26 @@ export default {
     };
   },
   async created() {
-    const { data } = await axios.get("https://covidtracking.com/api/us/daily");
-    data.forEach(d => {
-      const date = moment(d.date, "YYYYMMDD").format("MM/DD");
+    const  data = await axios.get("http://161.246.35.52/cie/pawee/sqltable/test.php?query=select * from PLANT_STATUS");
+    data.data.forEach(d => {
+      const date = moment(d.TIMESTAMP).format("MM/DD/YY HH:mm:ss");
       const {
-        positive,
-        hospitalizedCurrently,
-        inIcuCurrently,
-        onVentilatorCurrently,
-        recovered,
-        death
+        NAME,
+        HUMID,
+        TEMP,
+        PH,
+        EC,
+        O2
       } = d;
 
-      this.arrPositive.push({ date, total: positive });
-      this.arrHospitalized.push({ date, total: hospitalizedCurrently });
-      this.arrInIcu.push({ date, total: inIcuCurrently });
-      this.arrOnVentilators.push({ date, total: onVentilatorCurrently });
-      this.arrRecovered.push({ date, total: recovered });
-      this.arrDeaths.push({ date, total: death });
+      this.arrPositive.push({ date, total: HUMID });
+      this.arrHospitalized.push({ date, total: TEMP });
+      this.arrInIcu.push({ date, total: PH });
+      this.arrOnVentilators.push({ date, total: EC });
+      this.arrRecovered.push({ date, total: O2 });
+      this.arrDeaths.push({ date, total: NAME });      
     });
+    
   }
 };
 </script>
