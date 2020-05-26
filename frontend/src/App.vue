@@ -129,7 +129,7 @@ export default {
     };
   },
   async created() {
-    const  data = await axios.get("http://161.246.35.52/cie/pawee/sqltable/aws.php?query=select * from PLANT_STATUS");
+    const  data = await axios.get("https://aweokl79gc.execute-api.us-east-1.amazonaws.com/test/api?query=select * from PLANT_STATUS");
     data.data.forEach(d => {
       const date = moment(d.TIMESTAMP).format("MM/DD/YY HH:mm:ss");
       const {
